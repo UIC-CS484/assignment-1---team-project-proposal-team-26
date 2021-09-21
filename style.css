@@ -1,0 +1,125 @@
+html{
+    font-size: 20px;
+}
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Calibri, Helvetica, sans-serif;
+ color: dimgray;
+}
+header{
+    width: 92vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    margin: auto;
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+    width: 92vw;
+    height: 48vh;
+    margin: auto;
+    margin-bottom: 50px;
+}
+main > section{
+    background-color: lightgray;
+    width: 43.3vw;
+    height: 48vh;
+    padding: 15px;
+}
+main > section:first-child{
+    margin-right: 20px;
+}
+footer{
+    display: flex;
+    background-color: lightgray;
+    height: 24.5vh;
+    width: 90vw;
+    margin: auto;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+footer > section{
+    background-color: silver;
+    height: 22vh;
+    width: 28vw;
+    padding: 10px;
+}
+footer > section:first-child{
+    margin-right: 15px;
+}
+footer > section:nth-child(2){
+    margin-right: 15px;
+}
+@media screen and (min-width: 870px) and (max-width: 1080px) {
+    html{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 670px) and (max-width: 870px) {
+    html{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 670px) {
+    html{
+        font-size: 14px;
+    }
+    main{
+        height: 50vh;
+    }
+    main > section{
+        width: 85vw;
+        height: 50vh;
+    }
+    footer{
+        width: 87.5vw;
+        height: 28vh;
+    }
+    footer > section{
+        width: 81vw;
+        height: 25.5vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 16px;
+    }
+    main{
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    main > section{
+        width: 85vw;
+        height: 20vh;
+    }
+    main > section:first-child{
+        margin-bottom: 20px;
+        height: auto;
+    }
+    main > section:nth-child(2){
+        height: auto;
+        margin-bottom: 20px;
+    }
+    footer{
+        flex-direction: column;
+        width: 85vw;
+        height: 35vh;
+        height: auto;
+    }
+    footer > section{
+        width: 81vw;
+        height: auto;
+    }
+    footer > section:first-child{
+        height: auto;
+        margin-bottom: 15px;
+    }
+    footer > section:nth-child(2){
+        margin-bottom: 15px;
+    }
+}
