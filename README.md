@@ -6,4 +6,4 @@ Members - single member team - Lokesh Roopkumar - responsibilities include doing
 
 I will be using react.js, node.js, express.js, passport.js, SQLite for my final project.
 
-This is the link to the hosted Github Page - 
+This is the link to the hosted Github Page - https://uic-cs484.github.io/assignment-1---team-project-proposal-team-27/proposal
