@@ -1,4 +1,4 @@
-﻿# assignment-1---team-project-proposal-team-27
+﻿# Proposal for final project - team 26
  
 Since it is a single member team, I just plan to have the main branch and the github pages branch. I will do most of my work on main and push when I think the site is ready to the github pages branch.
 
